@@ -8,12 +8,6 @@ Ycode 将模型调用、工具执行、上下文管理、任务状态、运行�
 
 </div>
 
-<p align="center">
-  <img src="assets/screenshots/pico-tui-intro.png" alt="Ycode TUI startup screen" width="960">
-</p>
-
----
-
 ## 项目定位
 
 Ycode 不是一个简单的聊天壳，而是一个本地代码智能体 harness。它关注的是：模型在多轮任务中如何稳定读代码、调用工具、更新状态、恢复上下文，并把执行过程沉淀成可以复盘的证据。
@@ -37,16 +31,6 @@ Ycode 不是一个简单的聊天壳，而是一个本地代码智能体 harness
 - **Checkpoint / Resume**：任务中断后可以根据 checkpoint 恢复，同时识别 workspace 是否发生漂移，避免误信旧状态继续执行。
 - **Layered Memory**：把短期工作记忆、daily log、durable topics 和文件摘要拆开管理，减少 follow-up 阶段重复读文件。
 - **Run Trace & Evaluation**：为每次运行保存状态快照、事件流、trace 和报告，并用固定 benchmark 验证上下文、记忆、恢复和工具安全。
-
-## 界面预览
-
-| Tools / Worker | Skills / Help |
-| --- | --- |
-| ![Ycode tools](assets/screenshots/pico-tui-tools.png) | ![Ycode skills help](assets/screenshots/pico-tui-skills-help.png) |
-
-| Memory / Topics | Slash Commands |
-| --- | --- |
-| ![Ycode memory](assets/screenshots/pico-tui-memory-skills.png) | ![Ycode slash commands](assets/screenshots/pico-tui-latest.png) |
 
 ## 安装
 
